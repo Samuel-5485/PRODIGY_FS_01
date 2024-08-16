@@ -1,4 +1,4 @@
-const User = reqiure("../models/User");
+const User = require("../models/user");
 const bcrypt =  require("bcrypt");
 
 async function createUser(userData){
@@ -7,11 +7,11 @@ async function createUser(userData){
     const createUser = new User({
         name,
         email,
-        hachedPassword,
+       password: hashedPassword,
         role: "customer"
     });
-    const saveduser = await createUser.save();
+    const savedUser = await createUser.save();
     return savedUser
 }
 
-module.exports = { createUser }
+module.exports = { createUser };
