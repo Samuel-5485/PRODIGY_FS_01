@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 {
   "name":"prodigy_fs_01",
   "version":"1.0.0",
@@ -19,6 +19,3 @@
     "@types/cors":"^2.8.17",
     "@types/express":"^4.17.21"}
 }
-=======
-{"name":"prodigy_fs_01","version":"1.0.0","main":"index.js","scripts":{"test":"echo \"Error: no test speciefied\" && exit 1"},"author":"","license":"ISC","dependencies":{"bcrypt":"^5.1.1","cors":"^2.8.5","crypto":"^1.0.1","dotenv":"^16.4.5","express":"^4.19.2","https":"^1.0.0","jsonwebtoken":"^9.0.2","mongoose":"^8.5.3"},"keywords":[],"description":"","devDependencies":{"@types/bcrypt":"^5.0.2","@types/cors":"^2.8.17","@types/express":"^4.17.21","@types/jsonwebtoken":"^9.0.6"}}
->>>>>>> 49be5ff9 (this is my final commit)
