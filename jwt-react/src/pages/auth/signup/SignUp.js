@@ -31,7 +31,7 @@ const SignUp = () => {
           const result = await response.json();
           console.log(result);
       } catch (error) {
-        console.error(error.messge);
+        console.error(error.message);
       } finally {
         setFormData({
           email:"",
@@ -39,9 +39,7 @@ const SignUp = () => {
           password:""
         })
       }
-      /*console.log("email: ", formData.email);
-      console.log("name: ", formData.name);
-      console.log("password: ", formData.password);*/
+    
     }
   return (
     <div className='center-form'>
